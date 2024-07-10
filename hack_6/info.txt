@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ----------------------------
 MEDIA QUERY STRATEGY
 
@@ -17,3 +18,24 @@ GREEN BUTTON
 COLOR: #00BF63
 
 ----------------------------
+=======
+----------------------------
+MEDIA QUERY STRATEGY
+
+https://mediaqueri.es/
+
+----------------------------
+FONT: Inter
+
+TEXT: ALL
+----------------------------
+GREEN CIRCLE
+
+COLOR: #00BF63
+----------------------------
+GREEN BUTTON
+
+COLOR: #00BF63
+
+----------------------------
+>>>>>>> 4bf5c1e12a2141893f721be8b8c5d065a4836387

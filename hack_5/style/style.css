@@ -1,0 +1,249 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #fff;
+    margin: 20px 140px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo .circle {
+    width: 45px;
+    height: 45px;
+    background-color: #7ED957;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.header-right {
+    font-size: 20px;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero .hero-image {
+    background: url(/hack_5/img/2.png) no-repeat center;
+    width: 100%;
+    height: 750px;
+    filter: grayscale(100%);
+}
+
+.hero-text-zero {
+    display: flex;
+    position: absolute;
+    top: 24.5%;
+    left: 4%;
+    text-align: left;
+}
+
+.hero-text-zero h2 {
+    margin: 4px;
+    background-color: #00BF63;
+    display: inline;
+    padding: 6px 190px;
+    font-size: 2.5em;
+}
+
+.hero-text-one {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 33%;
+    left: 5%;
+    text-align: left;
+}
+
+.hero-text-one h2 {
+    margin: 4px;
+    background-color: #00BF63;
+    display: inline;
+    padding: 6px 190px;
+    font-size: 2.5em;
+}
+
+.p-zero {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    text-align: left;
+}
+
+.p-zero p {
+    font-size: 24px;
+    position: relative;
+    margin: 4px;
+    background-color: #000;
+    padding: 5px 220px;
+}
+
+.p-one {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60.8%;
+    left: 7%;
+    text-align: left;
+}
+
+.p-one p {
+    font-size: 24px;
+    position: relative;
+    margin: 4px;
+    background-color: #000;
+    padding: 5px 220px;
+}
+
+.solutions {
+    padding: 50px 76px;
+}
+
+.solutions-text h2 {
+    font-size: 2.8em;
+    margin-bottom: 20px;
+    margin-left: 70px;
+}
+
+.solutions-text p {
+    font-size: 1.8em;
+    margin-bottom: 40px;
+    margin-left: 70px;
+}
+
+.solution-cards {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 0px 50px 0px 50px;
+}
+
+.solution-cards p {
+    margin-top: 0px;
+}
+
+.card1, .card2, .card3 {
+    padding: 20px;
+    min-width: 350px;
+    max-width: 350px;
+    text-align: left;
+}
+
+.card-image {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.logo img {
+    border-radius: 10px;
+    overflow: hidden;
+    float: left;
+    margin-right: 10px;
+}
+
+.card p {
+    margin-top: 10px;
+    color: #333;
+    font-size: 1em;
+}
+
+footer {
+    margin: 90px 30px 30px 30px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    background-color: #00BF63;
+    color: #EEEEEE;
+    padding: 0px 0;
+    font-size: 35px;
+}
+
+@media (max-width: 1200px) {
+    header {
+        margin: 20px 70px;
+        padding: 20px 20px;
+    }
+
+    .hero-text-zero h2, .hero-text-one h2, .p-zero p, .p-one p {
+        padding: 6px 100px;
+        font-size: 2em;
+    }
+
+    .solutions {
+        padding: 50px 38px;
+    }
+
+    .solutions-text h2, .solutions-text p {
+        margin-left: 35px;
+    }
+
+    .solution-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card1, .card2, .card3 {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    footer {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        margin: 20px 30px;
+        text-align: center;
+    }
+
+    .hero-text-zero h2, .hero-text-one h2, .p-zero p, .p-one p {
+        padding: 6px 50px;
+        font-size: 1.5em;
+    }
+
+    .solutions {
+        padding: 50px 20px;
+    }
+
+    .solutions-text h2, .solutions-text p {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    footer {
+        font-size: 20px;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-text-zero h2, .hero-text-one h2, .p-zero p, .p-one p {
+        padding: 6px 20px;
+        font-size: 1.2em;
+    }
+
+    footer {
+        font-size: 16px;
+    }
+}
